@@ -339,7 +339,7 @@
                             <h3 class="panel-title">各 BU 資訊</h3>
                         </div>
                         <div class="panel-body">
-                            <ul class="nav nav-pills">
+                            <ul class="nav nav-tabs">
                              <li class=""><a href="#home-pills" data-toggle="tab">KKBOX </a>
                              </li>
                              <li class=""><a href="#home-pills" data-toggle="tab">KKStream </a>
@@ -370,18 +370,15 @@
                              </div>
                              <div id="profile-pills" class="tab-pane fade">
                                 <h4>Profile Tab</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p></p>
                              </div>
                              <div id="messages-pills" class="tab-pane fade">
                                 <h4>Messages Tab</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p></p>
                              </div>
                              <div id="settings-pills" class="tab-pane fade">
                                 <h4>Settings Tab</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p></p>
                              </div>
                           </div>
                         </div>
@@ -392,7 +389,14 @@
 
             <!-- Footer Start -->
             <footer class="footer">
-                2016 © KKBOX Group.
+                <div class="page-footer-inner"> 2016 &copy;
+                  <a target="_blank" href="http://keenthemes.com">KKBOX Group</a> &nbsp;|&nbsp;
+                  <a href="http://metronic.wusungpeng.macross.kk-box.com/home" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">KKBOX Taiwan</a>&nbsp;|&nbsp;
+                  <a href="http://beadmin.wusungpeng.macross.kk-box.com/home" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">KKStream</a>&nbsp;|&nbsp;
+                  <a href="http://black.wusungpeng.macross.kk-box.com/home" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">KKTV</a>&nbsp;|&nbsp;
+                  <a href="http://wintermin.wusungpeng.macross.kk-box.com/home" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">KKTOWN</a>&nbsp;|&nbsp;
+                  <a href="" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">KKTIX</a>
+                </div>
             </footer>
             <!-- Footer Ends -->
 
