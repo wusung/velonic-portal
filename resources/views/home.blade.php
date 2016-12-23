@@ -5,11 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-
         <link rel="shortcut icon" href="img/favicon_1.ico">
-
         <title>Velonic - Responsive Admin Dashboard Template</title>
-
         <!-- Bootstrap core CSS -->
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/bootstrap-reset.css" rel="stylesheet">
@@ -202,7 +199,9 @@
                 <div class="col-lg-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">行事曆</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-calendar"> 行事曆 </i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <div id="calendar"></div>
@@ -210,7 +209,9 @@
                     </div>
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">其他申請</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-settings"> 其他申請</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="about-links-item">
@@ -229,7 +230,9 @@
                 <div class="col-lg-4">
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">公告</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-comment-list"> 公告</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="about-links-item">
@@ -245,7 +248,9 @@
                     </div>
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">待簽核事項</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-assignment-check"> 待簽核事項</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                           <table class="table">
@@ -260,15 +265,15 @@
                               <tbody>
                                   <tr>
                                       <th>出</th>
-          														<td>W115120011</td>
-          														<td>tingwu</td>
-          														<td>2016/12/01</td>
+                                      <td>W115120011</td>
+                                      <td>tingwu</td>
+                                      <td>2016/12/01</td>
                                   </tr>
                                   <tr>
                                       <th>假</th>
-          														<td>W115120011</td>
-          														<td>tingwu</td>
-          														<td>2016/12/01</td>
+                                      <td>W115120011</td>
+                                      <td>tingwu</td>
+                                      <td>2016/12/01</td>
                                   </tr>
                               </tbody>
                           </table>
@@ -276,7 +281,9 @@
                     </div>
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">其他活動</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-favorite"> 其他活動</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="about-links-item">
@@ -297,25 +304,27 @@
                 <div class="col-lg-4">
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">常用系統</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-link"> 常用系統</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="about-links-item">
                             @foreach ($sidebars as $sidebar)
-
                               <li>
                                 <a href="#" title="{{ $sidebar['title'] }}">
                                   {{ $sidebar['title'] }}
                                 </a>
                               </li>
-
                             @endforeach
                             </ul>
                         </div>
                     </div>
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">辦公室資訊</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-library"> 辦公室資訊</i>
+                            </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="about-links-item">
@@ -336,7 +345,9 @@
                     </div>
                     <div class="panel panel-color panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">各 BU 資訊</h3>
+                            <h3 class="panel-title">
+                              <i class="zmdi zmdi-group-work"> 各 BU 資訊</i>
+                              </h3>
                         </div>
                         <div class="panel-body">
                             <ul class="nav nav-tabs">
@@ -413,8 +424,8 @@
         <!-- FulCalendar-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
 
+        <!-- Custom JS for this template -->
         <script src="js/calendar-init.js"></script>
-
         <script src="js/jquery.app.js"></script>
     </body>
 </html>
