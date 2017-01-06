@@ -41,6 +41,13 @@
             var m = date.getMonth();
             var y = date.getFullYear();
 
+            function get_calendar_height() {
+                return $(window).height() - 300;
+            }
+            $(window).resize(function() {
+                $('#calendar').fullCalendar('option', 'height', get_calendar_height());
+            });
+
             $('#calendar').fullCalendar({
                 height: $(window).height() - 300,
                 titleFormat: 'MMM YYYY',
